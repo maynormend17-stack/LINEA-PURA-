@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Web</title>
+    <!-- Estilos CSS modernos y limpios -->
+    <style>
+        :root {
+            --primary-color: #2563eb;
+            --text-color: #1f2937;
+            --bg-color: #f8fafc;
+            --card-bg: #ffffff;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: var(--card-bg);
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            padding: 1.5rem 2rem;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 1.8rem;
+            color: var(--primary-color);
+        }
+
+        main {
+            flex: 1;
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 0 1.5rem;
+            text-align: center;
+        }
+
+        .hero {
+            background: var(--card-bg);
+            padding: 3rem 2rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);
+            margin-bottom: 2rem;
+        }
+
+        .hero h2 {
+            margin-top: 0;
+            font-size: 2.2rem;
+            color: #111827;
+        }
+
+        .hero p {
+            font-size: 1.1rem;
+            color: #4b5563;
+            line-height: 1.6;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: var(--primary-color);
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 600;
+            margin-top: 1rem;
+            transition: background-color 0.2s;
+        }
+
+        .btn:hover {
+            background-color: #1d4ed8;
+        }
+
+        footer {
+            background-color: var(--card-bg);
+            text-align: center;
+            padding: 1rem;
+            font-size: 0.9rem;
+            color: #6b7280;
+            border-top: 1px solid #e5e7eb;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Mi Sitio Web</h1>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h2>¡Bienvenido a mi página!</h2>
+            <p>Este es el código base desplegado correctamente en GitHub Pages. Puedes editar este texto, agregar imágenes, productos o secciones según lo que necesites proyectar.</p>
+            <a href="https://github.com" class="btn" target="_blank">Explorar GitHub</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Creado con GitHub Pages</p>
+    </footer>
+
+</body>
+</html>
